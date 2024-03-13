@@ -48,6 +48,8 @@ header {
 
 /* 여기서부터 홈섹션 */
 .home {
+  background: url(images/home.jpg) no-repeat center;
+  background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -169,4 +171,20 @@ header {
 
 .home-sci a:hover::before {
   width: 100%;
+}
+
+.home-imgHover {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+  /* border: 2px solid red; */
+  transition: 3s;
+}
+
+.home-imgHover {
+  background-color: #081b29;
+  /* 투명도0일때 완전투명 1일때 불투명 */
 }
