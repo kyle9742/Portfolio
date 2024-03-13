@@ -9,6 +9,7 @@
 
 body {
   background-color: #081b29;
+  color: #ededed;
 }
 
 header {
@@ -43,4 +44,33 @@ header {
 .navbar a:hover,
 .navbar a.active {
   color: #00abf0;
+}
+
+/* 여기서부터 홈섹션 */
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+
+.home-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
 }
