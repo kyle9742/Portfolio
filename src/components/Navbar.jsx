@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? 'bg-white' : 'bg-transparent'}`}>
+    <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'bg-white' : 'bg-transparent'}`}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           SeoYoon's Portfolio
