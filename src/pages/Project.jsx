@@ -3,7 +3,7 @@ import "./Project.css";
 
 const Project = () => {
   return (
-    <div className="cardList container-fluid text-center bg-info">
+    <div className="cardList container-fluid text-center bg-info" id="project">
       <div className="title">Projects</div>
 
       <div className="card d-flex flex-row mx-auto mt-5 w-75">
