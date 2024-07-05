@@ -1,13 +1,19 @@
 import React from "react";
 import "./About.css";
+import AboutCard from "../components/AboutCard";
 
 const About = () => {
   return (
-    <div className="about container-fluid text-center" id="about">
-      <div className="title mt-5">About Me</div>
-      <div className="me">
-        <h1>노력하는 사람</h1>
-        <p>어릴때 부터 호기심이 많은 성격에 만들어 보았던 간단한 계산기 프로그램으로 무언가를 만드는 것의 재미를 느끼게 되었고 그때부터 개발자를 꿈꾸게 되었습니다. 계속해서 완성도 높은 코드, 그리고 완성도 높은 UI를 위해 매일 고뇌하는 사람이 되도록 하겠습니다. 잘부탁드립니다.</p>
+    <div className="about container-fluid" id="about">
+      <div className="title text-center mt-5">About Me</div>
+
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+        <AboutCard title="이름" content="박 서 윤" icon="name" />
+        <AboutCard title="생년월일" content="93.07.30" icon="birth" />
+        <AboutCard title="주소지" content="부산광역시 서구" icon="address" />
+        <AboutCard title="연락처" content="010-8927-4658" icon="phone" />
+        <AboutCard title="이메일" content="jaewoo1993@gmail.com" icon="email" />
+        <AboutCard title="학력" content="울산대학교 경영학과" icon="edu" />
       </div>
     </div>
   );

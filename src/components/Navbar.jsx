@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css'; // CSS 파일 임포트
+import './Navbar.css'; 
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

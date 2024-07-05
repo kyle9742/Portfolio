@@ -1,6 +1,22 @@
-.title {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  
+.aboutCard {
+  height: 100px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.card-body {
+  flex-grow: 1; 
+}
+
+.icon-container svg {
+  width: 30%; 
+  height: auto; 
+}
